@@ -38,15 +38,15 @@ public class NavView : MonoBehaviour {
 	}
 
 	void ForwardClicked(){
-		navController.forward ();
+		navController.Forward ();
 	}
 	void BackClicked(){
-		navController.backwards ();
+		navController.Backwards ();
 	}
 	void LeftClicked(){
-		navController.left ();
+		navController.Left ();
 	}
 	void RightClicked(){
-		navController.right ();
+		navController.Right ();
 	}
 }
